@@ -6,6 +6,6 @@ netconvert --node-files=cross.nod.xml --edge-files=cross.edg.xml --output-file=c
 
 O arquivo da rede será gerado: cross.net.xml
 
-Para simular a rede execute a seguinte linha de comando:
+Para simular a rede execute a seguinte linha de comando no console:
 
 sumo-gui -c cross.sumocfg
