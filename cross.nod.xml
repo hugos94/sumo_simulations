@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/nodes_file.xsd">
+   <node id="0" x="0.0" y="0.0"  type="traffic_light"/>
+
+   <node id="1" x="-50.0" y="0.0" type="priority"/>
+   <node id="2" x="+50.0" y="0.0" type="priority"/>
+   <node id="3" x="0.0" y="-50.0" type="priority"/>
+   <node id="4" x="0.0" y="+50.0" type="priority"/>
+
+</nodes>
+
+<!--
+  Autor: Hugo Santos Piauilino
+  Criado em: 04/10/2016
+  Arquivo que representam os nós da rede.
+-->
