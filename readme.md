@@ -1,3 +1,5 @@
+README
+
 Para criar a rede, crie os arquivos para os nodes e os edges.
 
 Logo apos, execute a seguinte linha de comando:
