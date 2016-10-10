@@ -1,5 +1,7 @@
 # Sumo Simulations
 
+http://sumo.dlr.de/wiki/Networks/Building_Networks_from_own_XML-descriptions#Traffic_Light_Program_Definition
+
 -- Nodes and Edges
 Para criar a rede, crie os arquivos para os nodes e os edges.
 
