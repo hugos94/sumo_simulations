@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <additional>
-  <inductionLoop id="0" lane="1to0_0" pos="25" freq="2" file="cross.out.xml" friendlyPos="x"/>
-  <inductionLoop id="1" lane="1to0_1" pos="25" freq="2" file="cross.out.xml" friendlyPos="x"/>
+  <inductionLoop id="1to0_0" lane="1to0_0" pos="25" freq="5" file="cross.out.xml" friendlyPos="true" splitByType="true"/>
+  <inductionLoop id="1to0_1" lane="1to0_1" pos="25" freq="5" file="cross.out.xml" friendlyPos="true" splitByType="true"/>
 
-  <inductionLoop id="2" lane="2to0_0" pos="25" freq="2" file="cross.out.xml" friendlyPos="x"/>
-  <inductionLoop id="3" lane="2to0_1" pos="25" freq="2" file="cross.out.xml" friendlyPos="x"/>
+  <inductionLoop id="2to0_0" lane="2to0_0" pos="25" freq="5" file="cross.out.xml" friendlyPos="true" splitByType="true"/>
+  <inductionLoop id="2to0_1" lane="2to0_1" pos="25" freq="5" file="cross.out.xml" friendlyPos="true" splitByType="true"/>
 
-  <inductionLoop id="4" lane="3to0_0" pos="25" freq="2" file="cross.out.xml" friendlyPos="x"/>
-  <inductionLoop id="5" lane="3to0_1" pos="25" freq="2" file="cross.out.xml" friendlyPos="x"/>
+  <inductionLoop id="3to0_0" lane="3to0_0" pos="25" freq="5" file="cross.out.xml" friendlyPos="true" splitByType="true"/>
+  <inductionLoop id="3to0_1" lane="3to0_1" pos="25" freq="5" file="cross.out.xml" friendlyPos="true" splitByType="true"/>
 
-  <inductionLoop id="6" lane="4to0_0" pos="25" freq="2" file="cross.out.xml" friendlyPos="x"/>
-  <inductionLoop id="7" lane="4to0_1" pos="25" freq="2" file="cross.out.xml" friendlyPos="x"/>
+  <inductionLoop id="4to0_0" lane="4to0_0" pos="25" freq="5" file="cross.out.xml" friendlyPos="true" splitByType="true"/>
+  <inductionLoop id="4to0_1" lane="4to0_1" pos="25" freq="5" file="cross.out.xml" friendlyPos="true" splitByType="true"/>
 </additional>

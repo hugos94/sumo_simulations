@@ -68,35 +68,35 @@ def generate_routefile():
         vehNr = 0
         for i in range(N):
             if random.uniform(0,1) < p1to2:
-                print('     <vehicle id="p1to2_%i" type="CarA" route="r1to2" depart="%i" />' % (vehNr, i), file=routes)
+                print('     <vehicle id="p1to2_%i" type="CarA" route="r1to2" depart="%i" departLane="free" />' % (vehNr, i), file=routes)
                 vehNr +=1
                 lastVeh = i
             if random.uniform(0,1) < p1to3:
-                print('     <vehicle id="p1to3_%i" type="CarB" route="r1to3" depart="%i" />' % (vehNr, i), file=routes)
+                print('     <vehicle id="p1to3_%i" type="CarB" route="r1to3" depart="%i" departLane="free" />' % (vehNr, i), file=routes)
                 vehNr +=1
                 lastVeh = i
             if random.uniform(0,1) < p2to1:
-                print('     <vehicle id="p2to1_%i" type="CarC" route="r2to1" depart="%i" />' % (vehNr, i), file=routes)
+                print('     <vehicle id="p2to1_%i" type="CarC" route="r2to1" depart="%i" departLane="free" />' % (vehNr, i), file=routes)
                 vehNr +=1
                 lastVeh = i
             if random.uniform(0,1) < p2to4:
-                print('     <vehicle id="p2to4_%i" type="CarD" route="r2to4" depart="%i" />' % (vehNr, i), file=routes)
+                print('     <vehicle id="p2to4_%i" type="CarD" route="r2to4" depart="%i" departLane="free" />' % (vehNr, i), file=routes)
                 vehNr +=1
                 lastVeh = i
             if random.uniform(0,1) < p3to2:
-                print('     <vehicle id="p3to2_%i" type="CarA" route="r3to2" depart="%i" />' % (vehNr, i), file=routes)
+                print('     <vehicle id="p3to2_%i" type="CarA" route="r3to2" depart="%i" departLane="free" />' % (vehNr, i), file=routes)
                 vehNr +=1
                 lastVeh = i
             if random.uniform(0,1) < p3to4:
-                print('     <vehicle id="p3to4_%i" type="CarB" route="r3to4" depart="%i" />' % (vehNr, i), file=routes)
+                print('     <vehicle id="p3to4_%i" type="CarB" route="r3to4" depart="%i" departLane="free" />' % (vehNr, i), file=routes)
                 vehNr +=1
                 lastVeh = i
             if random.uniform(0,1) < p4to1:
-                print('     <vehicle id="p4to1_%i" type="CarC" route="r4to1" depart="%i" />' % (vehNr, i), file=routes)
+                print('     <vehicle id="p4to1_%i" type="CarC" route="r4to1" depart="%i" departLane="free" />' % (vehNr, i), file=routes)
                 vehNr +=1
                 lastVeh = i
             if random.uniform(0,1) < p4to3:
-                print('     <vehicle id="p4to3_%i" type="CarD" route="r4to3" depart="%i" />' % (vehNr, i), file=routes)
+                print('     <vehicle id="p4to3_%i" type="CarD" route="r4to3" depart="%i" departLane="free" />' % (vehNr, i), file=routes)
                 vehNr +=1
                 lastVeh = i
         print("</routes>", file=routes)
@@ -109,7 +109,7 @@ def run():
     while traci.simulation.getMinExpectedNumber () > 0:
         traci.simulationStep()
         if traci.trafficlights.getPhase("0") == 2:
-            if traci.inductionloop.getLastStepVehicleNumber("0") > 0:
+            if traci.inductionloop.getLastStepVehicleNumber("1to0_0") > 0:
                 # there is a vehicle from the north, switch
                 traci.trafficlights.setPhase("0", 3)
             else:
