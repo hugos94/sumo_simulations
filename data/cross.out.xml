@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on Wed 12 Oct 2016 10:15:41 PM BRT by SUMO gui Version 0.26.0
+<!-- generated on Wed 12 Oct 2016 11:20:04 PM BRT by SUMO gui Version 0.26.0
 <?xml version="1.0" encoding="UTF-8"?>
 
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumo-gui.exeConfiguration.xsd">
@@ -61,8 +61,8 @@
    </interval>
    <interval begin="5.00" end="10.00" id="2to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
    </interval>
-   <interval begin="5.00" end="10.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="19.28" speed="11.14" length="5.00" nVehEntered="1">
-      <typedInterval type="CarA" begin="5.00" end="10.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="19.28" speed="11.14" length="5.00" nVehEntered="1"/>
+   <interval begin="5.00" end="10.00" id="3to0_0" nVehContrib="2" flow="1440.00" occupancy="17.95" speed="11.14" length="5.00" nVehEntered="2">
+      <typedInterval type="CarA" begin="5.00" end="10.00" id="3to0_0" nVehContrib="2" flow="1440.00" occupancy="17.95" speed="11.14" length="5.00" nVehEntered="2"/>
    </interval>
    <interval begin="5.00" end="10.00" id="3to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
    </interval>
@@ -76,14 +76,13 @@
    </interval>
    <interval begin="10.00" end="15.00" id="1to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
    </interval>
-   <interval begin="10.00" end="15.00" id="2to0_0" nVehContrib="1" flow="720.00" occupancy="27.33" speed="5.49" length="7.50" nVehEntered="1">
-      <typedInterval type="CarD" begin="10.00" end="15.00" id="2to0_0" nVehContrib="1" flow="720.00" occupancy="27.33" speed="5.49" length="7.50" nVehEntered="1"/>
+   <interval begin="10.00" end="15.00" id="2to0_0" nVehContrib="1" flow="720.00" occupancy="31.71" speed="4.73" length="7.50" nVehEntered="1">
+      <typedInterval type="CarD" begin="10.00" end="15.00" id="2to0_0" nVehContrib="1" flow="720.00" occupancy="31.71" speed="4.73" length="7.50" nVehEntered="1"/>
    </interval>
-   <interval begin="10.00" end="15.00" id="2to0_1" nVehContrib="1" flow="720.00" occupancy="18.67" speed="5.36" length="5.00" nVehEntered="1">
-      <typedInterval type="CarC" begin="10.00" end="15.00" id="2to0_1" nVehContrib="1" flow="720.00" occupancy="18.67" speed="5.36" length="5.00" nVehEntered="1"/>
+   <interval begin="10.00" end="15.00" id="2to0_1" nVehContrib="1" flow="720.00" occupancy="19.91" speed="5.02" length="5.00" nVehEntered="1">
+      <typedInterval type="CarC" begin="10.00" end="15.00" id="2to0_1" nVehContrib="1" flow="720.00" occupancy="19.91" speed="5.02" length="5.00" nVehEntered="1"/>
    </interval>
-   <interval begin="10.00" end="15.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="1.25" speed="8.66" length="5.00" nVehEntered="1">
-      <typedInterval type="CarA" begin="10.00" end="15.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="1.25" speed="8.66" length="5.00" nVehEntered="1"/>
+   <interval begin="10.00" end="15.00" id="3to0_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
    </interval>
    <interval begin="10.00" end="15.00" id="3to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
    </interval>
@@ -95,30 +94,30 @@
    <interval begin="15.00" end="20.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0">
       <typedInterval type="CarB" begin="15.00" end="20.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
    </interval>
-   <interval begin="15.00" end="20.00" id="1to0_1" nVehContrib="1" flow="720.00" occupancy="32.64" speed="10.95" length="5.00" nVehEntered="1">
-      <typedInterval type="CarA" begin="15.00" end="20.00" id="1to0_1" nVehContrib="1" flow="720.00" occupancy="9.13" speed="10.95" length="5.00" nVehEntered="1"/>
-      <typedInterval type="CarB" begin="15.00" end="20.00" id="1to0_1" nVehContrib="0" flow="0.00" occupancy="23.51" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="15.00" end="20.00" id="1to0_1" nVehContrib="1" flow="720.00" occupancy="24.99" speed="10.50" length="5.00" nVehEntered="1">
+      <typedInterval type="CarA" begin="15.00" end="20.00" id="1to0_1" nVehContrib="1" flow="720.00" occupancy="9.52" speed="10.50" length="5.00" nVehEntered="1"/>
+      <typedInterval type="CarB" begin="15.00" end="20.00" id="1to0_1" nVehContrib="0" flow="0.00" occupancy="15.46" speed="-1.00" length="-1.00" nVehEntered="0"/>
    </interval>
-   <interval begin="15.00" end="20.00" id="2to0_0" nVehContrib="0" flow="0.00" occupancy="73.80" speed="-1.00" length="-1.00" nVehEntered="0">
-      <typedInterval type="CarD" begin="15.00" end="20.00" id="2to0_0" nVehContrib="0" flow="0.00" occupancy="73.80" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="15.00" end="20.00" id="2to0_0" nVehContrib="0" flow="0.00" occupancy="71.89" speed="-1.00" length="-1.00" nVehEntered="0">
+      <typedInterval type="CarD" begin="15.00" end="20.00" id="2to0_0" nVehContrib="0" flow="0.00" occupancy="71.89" speed="-1.00" length="-1.00" nVehEntered="0"/>
    </interval>
    <interval begin="15.00" end="20.00" id="2to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
    </interval>
-   <interval begin="15.00" end="20.00" id="3to0_0" nVehContrib="2" flow="1440.00" occupancy="18.98" speed="10.55" length="5.00" nVehEntered="2">
-      <typedInterval type="CarA" begin="15.00" end="20.00" id="3to0_0" nVehContrib="2" flow="1440.00" occupancy="18.98" speed="10.55" length="5.00" nVehEntered="2"/>
+   <interval begin="15.00" end="20.00" id="3to0_0" nVehContrib="2" flow="1440.00" occupancy="18.41" speed="10.87" length="5.00" nVehEntered="2">
+      <typedInterval type="CarA" begin="15.00" end="20.00" id="3to0_0" nVehContrib="2" flow="1440.00" occupancy="18.41" speed="10.87" length="5.00" nVehEntered="2"/>
    </interval>
    <interval begin="15.00" end="20.00" id="3to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
    </interval>
-   <interval begin="15.00" end="20.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="17.46" speed="5.73" length="5.00" nVehEntered="1">
-      <typedInterval type="CarC" begin="15.00" end="20.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="17.46" speed="5.73" length="5.00" nVehEntered="1"/>
+   <interval begin="15.00" end="20.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="16.77" speed="5.96" length="5.00" nVehEntered="1">
+      <typedInterval type="CarC" begin="15.00" end="20.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="16.77" speed="5.96" length="5.00" nVehEntered="1"/>
    </interval>
    <interval begin="15.00" end="20.00" id="4to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
    </interval>
    <interval begin="20.00" end="25.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0">
       <typedInterval type="CarB" begin="20.00" end="25.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
    </interval>
-   <interval begin="20.00" end="25.00" id="1to0_1" nVehContrib="1" flow="720.00" occupancy="38.56" speed="2.42" length="7.50" nVehEntered="1">
-      <typedInterval type="CarB" begin="20.00" end="25.00" id="1to0_1" nVehContrib="1" flow="720.00" occupancy="38.56" speed="2.42" length="7.50" nVehEntered="1"/>
+   <interval begin="20.00" end="25.00" id="1to0_1" nVehContrib="1" flow="720.00" occupancy="38.23" speed="2.79" length="7.50" nVehEntered="1">
+      <typedInterval type="CarB" begin="20.00" end="25.00" id="1to0_1" nVehContrib="1" flow="720.00" occupancy="38.23" speed="2.79" length="7.50" nVehEntered="1"/>
    </interval>
    <interval begin="20.00" end="25.00" id="2to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0">
       <typedInterval type="CarD" begin="20.00" end="25.00" id="2to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
@@ -129,8 +128,8 @@
    </interval>
    <interval begin="20.00" end="25.00" id="3to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
    </interval>
-   <interval begin="20.00" end="25.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="17.43" speed="5.74" length="5.00" nVehEntered="1">
-      <typedInterval type="CarC" begin="20.00" end="25.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="17.43" speed="5.74" length="5.00" nVehEntered="1"/>
+   <interval begin="20.00" end="25.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="17.09" speed="5.85" length="5.00" nVehEntered="1">
+      <typedInterval type="CarC" begin="20.00" end="25.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="17.09" speed="5.85" length="5.00" nVehEntered="1"/>
    </interval>
    <interval begin="20.00" end="25.00" id="4to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
    </interval>
@@ -142,20 +141,19 @@
    <interval begin="25.00" end="30.00" id="2to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0">
       <typedInterval type="CarD" begin="25.00" end="30.00" id="2to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
    </interval>
-   <interval begin="25.00" end="30.00" id="2to0_1" nVehContrib="1" flow="720.00" occupancy="54.35" speed="2.76" length="7.50" nVehEntered="1">
-      <typedInterval type="CarD" begin="25.00" end="30.00" id="2to0_1" nVehContrib="1" flow="720.00" occupancy="54.35" speed="2.76" length="7.50" nVehEntered="1"/>
+   <interval begin="25.00" end="30.00" id="2to0_1" nVehContrib="0" flow="0.00" occupancy="77.99" speed="-1.00" length="-1.00" nVehEntered="0">
+      <typedInterval type="CarD" begin="25.00" end="30.00" id="2to0_1" nVehContrib="0" flow="0.00" occupancy="77.99" speed="-1.00" length="-1.00" nVehEntered="0"/>
    </interval>
-   <interval begin="25.00" end="30.00" id="3to0_0" nVehContrib="0" flow="0.00" occupancy="16.11" speed="-1.00" length="-1.00" nVehEntered="0">
-      <typedInterval type="CarB" begin="25.00" end="30.00" id="3to0_0" nVehContrib="0" flow="0.00" occupancy="16.11" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="25.00" end="30.00" id="3to0_0" nVehContrib="0" flow="0.00" occupancy="14.24" speed="-1.00" length="-1.00" nVehEntered="0">
+      <typedInterval type="CarB" begin="25.00" end="30.00" id="3to0_0" nVehContrib="0" flow="0.00" occupancy="14.24" speed="-1.00" length="-1.00" nVehEntered="0"/>
    </interval>
-   <interval begin="25.00" end="30.00" id="3to0_1" nVehContrib="1" flow="720.00" occupancy="17.85" speed="8.41" length="7.50" nVehEntered="1">
-      <typedInterval type="CarB" begin="25.00" end="30.00" id="3to0_1" nVehContrib="1" flow="720.00" occupancy="17.85" speed="8.41" length="7.50" nVehEntered="1"/>
+   <interval begin="25.00" end="30.00" id="3to0_1" nVehContrib="1" flow="720.00" occupancy="19.87" speed="7.55" length="7.50" nVehEntered="1">
+      <typedInterval type="CarB" begin="25.00" end="30.00" id="3to0_1" nVehContrib="1" flow="720.00" occupancy="19.87" speed="7.55" length="7.50" nVehEntered="1"/>
    </interval>
-   <interval begin="25.00" end="30.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="18.66" speed="5.36" length="5.00" nVehEntered="1">
-      <typedInterval type="CarC" begin="25.00" end="30.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="18.66" speed="5.36" length="5.00" nVehEntered="1"/>
+   <interval begin="25.00" end="30.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="17.15" speed="5.83" length="5.00" nVehEntered="1">
+      <typedInterval type="CarC" begin="25.00" end="30.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="17.15" speed="5.83" length="5.00" nVehEntered="1"/>
    </interval>
-   <interval begin="25.00" end="30.00" id="4to0_1" nVehContrib="0" flow="0.00" occupancy="9.24" speed="-1.00" length="-1.00" nVehEntered="0">
-      <typedInterval type="CarD" begin="25.00" end="30.00" id="4to0_1" nVehContrib="0" flow="0.00" occupancy="9.24" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="25.00" end="30.00" id="4to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
    </interval>
    <interval begin="30.00" end="35.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0">
       <typedInterval type="CarB" begin="30.00" end="35.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
@@ -165,18 +163,19 @@
    <interval begin="30.00" end="35.00" id="2to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0">
       <typedInterval type="CarD" begin="30.00" end="35.00" id="2to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
    </interval>
-   <interval begin="30.00" end="35.00" id="2to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
+   <interval begin="30.00" end="35.00" id="2to0_1" nVehContrib="1" flow="720.00" occupancy="10.05" speed="1.70" length="7.50" nVehEntered="1">
+      <typedInterval type="CarD" begin="30.00" end="35.00" id="2to0_1" nVehContrib="1" flow="720.00" occupancy="10.05" speed="1.70" length="7.50" nVehEntered="1"/>
    </interval>
-   <interval begin="30.00" end="35.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="3.03" speed="7.84" length="7.50" nVehEntered="1">
-      <typedInterval type="CarB" begin="30.00" end="35.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="3.03" speed="7.84" length="7.50" nVehEntered="1"/>
+   <interval begin="30.00" end="35.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="3.82" speed="8.31" length="7.50" nVehEntered="1">
+      <typedInterval type="CarB" begin="30.00" end="35.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="3.82" speed="8.31" length="7.50" nVehEntered="1"/>
    </interval>
    <interval begin="30.00" end="35.00" id="3to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
    </interval>
-   <interval begin="30.00" end="35.00" id="4to0_0" nVehContrib="0" flow="0.00" occupancy="19.49" speed="-1.00" length="-1.00" nVehEntered="0">
-      <typedInterval type="CarD" begin="30.00" end="35.00" id="4to0_0" nVehContrib="0" flow="0.00" occupancy="19.49" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="30.00" end="35.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="31.16" speed="4.81" length="7.50" nVehEntered="1">
+      <typedInterval type="CarD" begin="30.00" end="35.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="31.16" speed="4.81" length="7.50" nVehEntered="1"/>
    </interval>
-   <interval begin="30.00" end="35.00" id="4to0_1" nVehContrib="1" flow="720.00" occupancy="21.70" speed="4.85" length="7.50" nVehEntered="1">
-      <typedInterval type="CarD" begin="30.00" end="35.00" id="4to0_1" nVehContrib="1" flow="720.00" occupancy="21.70" speed="4.85" length="7.50" nVehEntered="1"/>
+   <interval begin="30.00" end="35.00" id="4to0_1" nVehContrib="1" flow="720.00" occupancy="27.57" speed="5.44" length="7.50" nVehEntered="1">
+      <typedInterval type="CarD" begin="30.00" end="35.00" id="4to0_1" nVehContrib="1" flow="720.00" occupancy="27.57" speed="5.44" length="7.50" nVehEntered="1"/>
    </interval>
    <interval begin="35.00" end="40.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0">
       <typedInterval type="CarB" begin="35.00" end="40.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
@@ -188,15 +187,14 @@
    </interval>
    <interval begin="35.00" end="40.00" id="2to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
    </interval>
-   <interval begin="35.00" end="40.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="9.72" speed="10.28" length="5.00" nVehEntered="1">
-      <typedInterval type="CarA" begin="35.00" end="40.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="9.72" speed="10.28" length="5.00" nVehEntered="1"/>
+   <interval begin="35.00" end="40.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="9.73" speed="10.27" length="5.00" nVehEntered="1">
+      <typedInterval type="CarA" begin="35.00" end="40.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="9.73" speed="10.27" length="5.00" nVehEntered="1"/>
    </interval>
-   <interval begin="35.00" end="40.00" id="3to0_1" nVehContrib="1" flow="720.00" occupancy="18.36" speed="8.17" length="7.50" nVehEntered="1">
-      <typedInterval type="CarB" begin="35.00" end="40.00" id="3to0_1" nVehContrib="1" flow="720.00" occupancy="18.36" speed="8.17" length="7.50" nVehEntered="1"/>
+   <interval begin="35.00" end="40.00" id="3to0_1" nVehContrib="1" flow="720.00" occupancy="16.68" speed="8.99" length="7.50" nVehEntered="1">
+      <typedInterval type="CarB" begin="35.00" end="40.00" id="3to0_1" nVehContrib="1" flow="720.00" occupancy="16.68" speed="8.99" length="7.50" nVehEntered="1"/>
    </interval>
-   <interval begin="35.00" end="40.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="27.90" speed="5.68" length="7.50" nVehEntered="1">
-      <typedInterval type="CarC" begin="35.00" end="40.00" id="4to0_0" nVehContrib="0" flow="0.00" occupancy="20.98" speed="-1.00" length="-1.00" nVehEntered="0"/>
-      <typedInterval type="CarD" begin="35.00" end="40.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="6.92" speed="5.68" length="7.50" nVehEntered="1"/>
+   <interval begin="35.00" end="40.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="18.15" speed="5.51" length="5.00" nVehEntered="1">
+      <typedInterval type="CarC" begin="35.00" end="40.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="18.15" speed="5.51" length="5.00" nVehEntered="1"/>
    </interval>
    <interval begin="35.00" end="40.00" id="4to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
    </interval>
@@ -210,16 +208,15 @@
    </interval>
    <interval begin="40.00" end="45.00" id="2to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
    </interval>
-   <interval begin="40.00" end="45.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="9.27" speed="10.78" length="5.00" nVehEntered="1">
-      <typedInterval type="CarA" begin="40.00" end="45.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="9.27" speed="10.78" length="5.00" nVehEntered="1"/>
+   <interval begin="40.00" end="45.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="8.86" speed="11.28" length="5.00" nVehEntered="1">
+      <typedInterval type="CarA" begin="40.00" end="45.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="8.86" speed="11.28" length="5.00" nVehEntered="1"/>
    </interval>
    <interval begin="40.00" end="45.00" id="3to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
    </interval>
-   <interval begin="40.00" end="45.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="3.00" speed="4.17" length="5.00" nVehEntered="1">
-      <typedInterval type="CarC" begin="40.00" end="45.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="3.00" speed="4.17" length="5.00" nVehEntered="1"/>
+   <interval begin="40.00" end="45.00" id="4to0_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
    </interval>
-   <interval begin="40.00" end="45.00" id="4to0_1" nVehContrib="1" flow="720.00" occupancy="29.82" speed="5.03" length="7.50" nVehEntered="1">
-      <typedInterval type="CarD" begin="40.00" end="45.00" id="4to0_1" nVehContrib="1" flow="720.00" occupancy="29.82" speed="5.03" length="7.50" nVehEntered="1"/>
+   <interval begin="40.00" end="45.00" id="4to0_1" nVehContrib="1" flow="720.00" occupancy="30.83" speed="4.87" length="7.50" nVehEntered="1">
+      <typedInterval type="CarD" begin="40.00" end="45.00" id="4to0_1" nVehContrib="1" flow="720.00" occupancy="30.83" speed="4.87" length="7.50" nVehEntered="1"/>
    </interval>
    <interval begin="45.00" end="50.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0">
       <typedInterval type="CarB" begin="45.00" end="50.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
@@ -235,18 +232,18 @@
    </interval>
    <interval begin="45.00" end="50.00" id="3to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
    </interval>
-   <interval begin="45.00" end="50.00" id="4to0_0" nVehContrib="0" flow="0.00" occupancy="2.25" speed="-1.00" length="-1.00" nVehEntered="0">
-      <typedInterval type="CarC" begin="45.00" end="50.00" id="4to0_0" nVehContrib="0" flow="0.00" occupancy="2.25" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="45.00" end="50.00" id="4to0_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
    </interval>
    <interval begin="45.00" end="50.00" id="4to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
    </interval>
-   <interval begin="50.00" end="55.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0">
-      <typedInterval type="CarB" begin="50.00" end="55.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="50.00" end="55.00" id="1to0_0" nVehContrib="1" flow="720.00" occupancy="57.53" speed="0.17" length="7.50" nVehEntered="1">
+      <typedInterval type="CarB" begin="50.00" end="55.00" id="1to0_0" nVehContrib="1" flow="720.00" occupancy="57.53" speed="0.17" length="7.50" nVehEntered="1"/>
    </interval>
-   <interval begin="50.00" end="55.00" id="1to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
+   <interval begin="50.00" end="55.00" id="1to0_1" nVehContrib="0" flow="0.00" occupancy="16.87" speed="-1.00" length="-1.00" nVehEntered="0">
+      <typedInterval type="CarA" begin="50.00" end="55.00" id="1to0_1" nVehContrib="0" flow="0.00" occupancy="16.87" speed="-1.00" length="-1.00" nVehEntered="0"/>
    </interval>
-   <interval begin="50.00" end="55.00" id="2to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0">
-      <typedInterval type="CarD" begin="50.00" end="55.00" id="2to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="50.00" end="55.00" id="2to0_0" nVehContrib="1" flow="720.00" occupancy="72.88" speed="0.20" length="7.50" nVehEntered="1">
+      <typedInterval type="CarD" begin="50.00" end="55.00" id="2to0_0" nVehContrib="1" flow="720.00" occupancy="72.88" speed="0.20" length="7.50" nVehEntered="1"/>
    </interval>
    <interval begin="50.00" end="55.00" id="2to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
    </interval>
@@ -254,31 +251,32 @@
    </interval>
    <interval begin="50.00" end="55.00" id="3to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
    </interval>
-   <interval begin="50.00" end="55.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="16.64" speed="5.29" length="5.00" nVehEntered="1">
-      <typedInterval type="CarC" begin="50.00" end="55.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="16.64" speed="5.29" length="5.00" nVehEntered="1"/>
+   <interval begin="50.00" end="55.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="18.11" speed="5.52" length="5.00" nVehEntered="1">
+      <typedInterval type="CarC" begin="50.00" end="55.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="18.11" speed="5.52" length="5.00" nVehEntered="1"/>
    </interval>
    <interval begin="50.00" end="55.00" id="4to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
    </interval>
-   <interval begin="55.00" end="60.00" id="1to0_0" nVehContrib="1" flow="720.00" occupancy="58.00" speed="0.15" length="7.50" nVehEntered="1">
-      <typedInterval type="CarB" begin="55.00" end="60.00" id="1to0_0" nVehContrib="1" flow="720.00" occupancy="58.00" speed="0.15" length="7.50" nVehEntered="1"/>
+   <interval begin="55.00" end="60.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0">
+      <typedInterval type="CarB" begin="55.00" end="60.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
    </interval>
-   <interval begin="55.00" end="60.00" id="1to0_1" nVehContrib="1" flow="720.00" occupancy="29.47" speed="3.39" length="5.00" nVehEntered="1">
-      <typedInterval type="CarA" begin="55.00" end="60.00" id="1to0_1" nVehContrib="1" flow="720.00" occupancy="29.47" speed="3.39" length="5.00" nVehEntered="1"/>
+   <interval begin="55.00" end="60.00" id="1to0_1" nVehContrib="1" flow="720.00" occupancy="12.87" speed="3.36" length="5.00" nVehEntered="1">
+      <typedInterval type="CarA" begin="55.00" end="60.00" id="1to0_1" nVehContrib="1" flow="720.00" occupancy="12.87" speed="3.36" length="5.00" nVehEntered="1"/>
    </interval>
-   <interval begin="55.00" end="60.00" id="2to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0">
-      <typedInterval type="CarD" begin="55.00" end="60.00" id="2to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="55.00" end="60.00" id="2to0_0" nVehContrib="0" flow="0.00" occupancy="66.29" speed="-1.00" length="-1.00" nVehEntered="0">
+      <typedInterval type="CarD" begin="55.00" end="60.00" id="2to0_0" nVehContrib="0" flow="0.00" occupancy="66.29" speed="-1.00" length="-1.00" nVehEntered="0"/>
    </interval>
-   <interval begin="55.00" end="60.00" id="2to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
+   <interval begin="55.00" end="60.00" id="2to0_1" nVehContrib="1" flow="720.00" occupancy="45.10" speed="2.22" length="5.00" nVehEntered="1">
+      <typedInterval type="CarC" begin="55.00" end="60.00" id="2to0_1" nVehContrib="1" flow="720.00" occupancy="45.10" speed="2.22" length="5.00" nVehEntered="1"/>
    </interval>
    <interval begin="55.00" end="60.00" id="3to0_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
    </interval>
    <interval begin="55.00" end="60.00" id="3to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
    </interval>
-   <interval begin="55.00" end="60.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="18.60" speed="5.38" length="5.00" nVehEntered="1">
-      <typedInterval type="CarC" begin="55.00" end="60.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="18.60" speed="5.38" length="5.00" nVehEntered="1"/>
+   <interval begin="55.00" end="60.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="18.88" speed="5.30" length="5.00" nVehEntered="1">
+      <typedInterval type="CarC" begin="55.00" end="60.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="18.88" speed="5.30" length="5.00" nVehEntered="1"/>
    </interval>
-   <interval begin="55.00" end="60.00" id="4to0_1" nVehContrib="1" flow="720.00" occupancy="27.59" speed="5.44" length="7.50" nVehEntered="1">
-      <typedInterval type="CarD" begin="55.00" end="60.00" id="4to0_1" nVehContrib="1" flow="720.00" occupancy="27.59" speed="5.44" length="7.50" nVehEntered="1"/>
+   <interval begin="55.00" end="60.00" id="4to0_1" nVehContrib="1" flow="720.00" occupancy="29.35" speed="5.11" length="7.50" nVehEntered="1">
+      <typedInterval type="CarD" begin="55.00" end="60.00" id="4to0_1" nVehContrib="1" flow="720.00" occupancy="29.35" speed="5.11" length="7.50" nVehEntered="1"/>
    </interval>
    <interval begin="60.00" end="65.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0">
       <typedInterval type="CarB" begin="60.00" end="65.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
@@ -290,16 +288,16 @@
    </interval>
    <interval begin="60.00" end="65.00" id="2to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
    </interval>
-   <interval begin="60.00" end="65.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="9.66" speed="10.35" length="5.00" nVehEntered="1">
-      <typedInterval type="CarA" begin="60.00" end="65.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="9.66" speed="10.35" length="5.00" nVehEntered="1"/>
+   <interval begin="60.00" end="65.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="9.06" speed="11.03" length="5.00" nVehEntered="1">
+      <typedInterval type="CarA" begin="60.00" end="65.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="9.06" speed="11.03" length="5.00" nVehEntered="1"/>
    </interval>
-   <interval begin="60.00" end="65.00" id="3to0_1" nVehContrib="1" flow="720.00" occupancy="18.40" speed="8.15" length="7.50" nVehEntered="1">
-      <typedInterval type="CarB" begin="60.00" end="65.00" id="3to0_1" nVehContrib="1" flow="720.00" occupancy="18.40" speed="8.15" length="7.50" nVehEntered="1"/>
+   <interval begin="60.00" end="65.00" id="3to0_1" nVehContrib="1" flow="720.00" occupancy="18.09" speed="8.29" length="7.50" nVehEntered="1">
+      <typedInterval type="CarB" begin="60.00" end="65.00" id="3to0_1" nVehContrib="1" flow="720.00" occupancy="18.09" speed="8.29" length="7.50" nVehEntered="1"/>
    </interval>
    <interval begin="60.00" end="65.00" id="4to0_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
    </interval>
-   <interval begin="60.00" end="65.00" id="4to0_1" nVehContrib="1" flow="720.00" occupancy="36.53" speed="4.11" length="7.50" nVehEntered="1">
-      <typedInterval type="CarD" begin="60.00" end="65.00" id="4to0_1" nVehContrib="1" flow="720.00" occupancy="36.53" speed="4.11" length="7.50" nVehEntered="1"/>
+   <interval begin="60.00" end="65.00" id="4to0_1" nVehContrib="1" flow="720.00" occupancy="28.95" speed="5.18" length="7.50" nVehEntered="1">
+      <typedInterval type="CarD" begin="60.00" end="65.00" id="4to0_1" nVehContrib="1" flow="720.00" occupancy="28.95" speed="5.18" length="7.50" nVehEntered="1"/>
    </interval>
    <interval begin="65.00" end="70.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0">
       <typedInterval type="CarB" begin="65.00" end="70.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
@@ -311,12 +309,12 @@
    </interval>
    <interval begin="65.00" end="70.00" id="2to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
    </interval>
-   <interval begin="65.00" end="70.00" id="3to0_0" nVehContrib="2" flow="1440.00" occupancy="27.87" speed="9.46" length="6.25" nVehEntered="2">
-      <typedInterval type="CarA" begin="65.00" end="70.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="9.19" speed="10.89" length="5.00" nVehEntered="1"/>
-      <typedInterval type="CarB" begin="65.00" end="70.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="18.69" speed="8.03" length="7.50" nVehEntered="1"/>
+   <interval begin="65.00" end="70.00" id="3to0_0" nVehContrib="2" flow="1440.00" occupancy="28.36" speed="9.29" length="6.25" nVehEntered="2">
+      <typedInterval type="CarA" begin="65.00" end="70.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="9.34" speed="10.70" length="5.00" nVehEntered="1"/>
+      <typedInterval type="CarB" begin="65.00" end="70.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="19.02" speed="7.89" length="7.50" nVehEntered="1"/>
    </interval>
-   <interval begin="65.00" end="70.00" id="3to0_1" nVehContrib="1" flow="720.00" occupancy="18.34" speed="8.18" length="7.50" nVehEntered="1">
-      <typedInterval type="CarB" begin="65.00" end="70.00" id="3to0_1" nVehContrib="1" flow="720.00" occupancy="18.34" speed="8.18" length="7.50" nVehEntered="1"/>
+   <interval begin="65.00" end="70.00" id="3to0_1" nVehContrib="1" flow="720.00" occupancy="19.43" speed="7.72" length="7.50" nVehEntered="1">
+      <typedInterval type="CarB" begin="65.00" end="70.00" id="3to0_1" nVehContrib="1" flow="720.00" occupancy="19.43" speed="7.72" length="7.50" nVehEntered="1"/>
    </interval>
    <interval begin="65.00" end="70.00" id="4to0_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
    </interval>
@@ -332,16 +330,17 @@
    </interval>
    <interval begin="70.00" end="75.00" id="2to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
    </interval>
-   <interval begin="70.00" end="75.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="18.64" speed="8.05" length="7.50" nVehEntered="1">
-      <typedInterval type="CarB" begin="70.00" end="75.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="18.64" speed="8.05" length="7.50" nVehEntered="1"/>
+   <interval begin="70.00" end="75.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="17.93" speed="8.37" length="7.50" nVehEntered="1">
+      <typedInterval type="CarB" begin="70.00" end="75.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="17.93" speed="8.37" length="7.50" nVehEntered="1"/>
    </interval>
-   <interval begin="70.00" end="75.00" id="3to0_1" nVehContrib="1" flow="720.00" occupancy="17.63" speed="8.51" length="7.50" nVehEntered="1">
-      <typedInterval type="CarB" begin="70.00" end="75.00" id="3to0_1" nVehContrib="1" flow="720.00" occupancy="17.63" speed="8.51" length="7.50" nVehEntered="1"/>
+   <interval begin="70.00" end="75.00" id="3to0_1" nVehContrib="1" flow="720.00" occupancy="18.28" speed="8.21" length="7.50" nVehEntered="1">
+      <typedInterval type="CarB" begin="70.00" end="75.00" id="3to0_1" nVehContrib="1" flow="720.00" occupancy="18.28" speed="8.21" length="7.50" nVehEntered="1"/>
    </interval>
-   <interval begin="70.00" end="75.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="17.25" speed="5.80" length="5.00" nVehEntered="1">
-      <typedInterval type="CarC" begin="70.00" end="75.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="17.25" speed="5.80" length="5.00" nVehEntered="1"/>
+   <interval begin="70.00" end="75.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="17.67" speed="5.66" length="5.00" nVehEntered="1">
+      <typedInterval type="CarC" begin="70.00" end="75.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="17.67" speed="5.66" length="5.00" nVehEntered="1"/>
    </interval>
-   <interval begin="70.00" end="75.00" id="4to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
+   <interval begin="70.00" end="75.00" id="4to0_1" nVehContrib="0" flow="0.00" occupancy="6.79" speed="-1.00" length="-1.00" nVehEntered="0">
+      <typedInterval type="CarD" begin="70.00" end="75.00" id="4to0_1" nVehContrib="0" flow="0.00" occupancy="6.79" speed="-1.00" length="-1.00" nVehEntered="0"/>
    </interval>
    <interval begin="75.00" end="80.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0">
       <typedInterval type="CarB" begin="75.00" end="80.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
@@ -355,14 +354,14 @@
    </interval>
    <interval begin="75.00" end="80.00" id="3to0_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
    </interval>
-   <interval begin="75.00" end="80.00" id="3to0_1" nVehContrib="1" flow="720.00" occupancy="17.22" speed="8.71" length="7.50" nVehEntered="1">
-      <typedInterval type="CarB" begin="75.00" end="80.00" id="3to0_1" nVehContrib="1" flow="720.00" occupancy="17.22" speed="8.71" length="7.50" nVehEntered="1"/>
+   <interval begin="75.00" end="80.00" id="3to0_1" nVehContrib="1" flow="720.00" occupancy="16.80" speed="8.93" length="7.50" nVehEntered="1">
+      <typedInterval type="CarB" begin="75.00" end="80.00" id="3to0_1" nVehContrib="1" flow="720.00" occupancy="16.80" speed="8.93" length="7.50" nVehEntered="1"/>
    </interval>
-   <interval begin="75.00" end="80.00" id="4to0_0" nVehContrib="0" flow="0.00" occupancy="14.91" speed="-1.00" length="-1.00" nVehEntered="0">
-      <typedInterval type="CarD" begin="75.00" end="80.00" id="4to0_0" nVehContrib="0" flow="0.00" occupancy="14.91" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="75.00" end="80.00" id="4to0_0" nVehContrib="0" flow="0.00" occupancy="12.18" speed="-1.00" length="-1.00" nVehEntered="0">
+      <typedInterval type="CarD" begin="75.00" end="80.00" id="4to0_0" nVehContrib="0" flow="0.00" occupancy="12.18" speed="-1.00" length="-1.00" nVehEntered="0"/>
    </interval>
-   <interval begin="75.00" end="80.00" id="4to0_1" nVehContrib="1" flow="720.00" occupancy="28.75" speed="5.22" length="7.50" nVehEntered="1">
-      <typedInterval type="CarD" begin="75.00" end="80.00" id="4to0_1" nVehContrib="1" flow="720.00" occupancy="28.75" speed="5.22" length="7.50" nVehEntered="1"/>
+   <interval begin="75.00" end="80.00" id="4to0_1" nVehContrib="1" flow="720.00" occupancy="21.59" speed="5.29" length="7.50" nVehEntered="1">
+      <typedInterval type="CarD" begin="75.00" end="80.00" id="4to0_1" nVehContrib="1" flow="720.00" occupancy="21.59" speed="5.29" length="7.50" nVehEntered="1"/>
    </interval>
    <interval begin="80.00" end="85.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0">
       <typedInterval type="CarB" begin="80.00" end="85.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
@@ -374,13 +373,14 @@
    </interval>
    <interval begin="80.00" end="85.00" id="2to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
    </interval>
-   <interval begin="80.00" end="85.00" id="3to0_0" nVehContrib="0" flow="0.00" occupancy="16.92" speed="-1.00" length="-1.00" nVehEntered="0">
-      <typedInterval type="CarB" begin="80.00" end="85.00" id="3to0_0" nVehContrib="0" flow="0.00" occupancy="16.92" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="80.00" end="85.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="17.84" speed="8.41" length="7.50" nVehEntered="1">
+      <typedInterval type="CarB" begin="80.00" end="85.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="17.84" speed="8.41" length="7.50" nVehEntered="1"/>
    </interval>
    <interval begin="80.00" end="85.00" id="3to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
    </interval>
-   <interval begin="80.00" end="85.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="11.13" speed="5.76" length="7.50" nVehEntered="1">
-      <typedInterval type="CarD" begin="80.00" end="85.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="11.13" speed="5.76" length="7.50" nVehEntered="1"/>
+   <interval begin="80.00" end="85.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="19.04" speed="5.72" length="7.50" nVehEntered="1">
+      <typedInterval type="CarC" begin="80.00" end="85.00" id="4to0_0" nVehContrib="0" flow="0.00" occupancy="5.02" speed="-1.00" length="-1.00" nVehEntered="0"/>
+      <typedInterval type="CarD" begin="80.00" end="85.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="14.03" speed="5.72" length="7.50" nVehEntered="1"/>
    </interval>
    <interval begin="80.00" end="85.00" id="4to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
    </interval>
@@ -394,14 +394,13 @@
    </interval>
    <interval begin="85.00" end="90.00" id="2to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
    </interval>
-   <interval begin="85.00" end="90.00" id="3to0_0" nVehContrib="2" flow="1440.00" occupancy="11.06" speed="9.39" length="6.25" nVehEntered="2">
-      <typedInterval type="CarA" begin="85.00" end="90.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="9.30" speed="10.75" length="5.00" nVehEntered="1"/>
-      <typedInterval type="CarB" begin="85.00" end="90.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="1.76" speed="8.03" length="7.50" nVehEntered="1"/>
+   <interval begin="85.00" end="90.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="9.65" speed="10.36" length="5.00" nVehEntered="1">
+      <typedInterval type="CarA" begin="85.00" end="90.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="9.65" speed="10.36" length="5.00" nVehEntered="1"/>
    </interval>
    <interval begin="85.00" end="90.00" id="3to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
    </interval>
-   <interval begin="85.00" end="90.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="26.08" speed="3.83" length="5.00" nVehEntered="1">
-      <typedInterval type="CarC" begin="85.00" end="90.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="26.08" speed="3.83" length="5.00" nVehEntered="1"/>
+   <interval begin="85.00" end="90.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="22.37" speed="3.65" length="5.00" nVehEntered="1">
+      <typedInterval type="CarC" begin="85.00" end="90.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="22.37" speed="3.65" length="5.00" nVehEntered="1"/>
    </interval>
    <interval begin="85.00" end="90.00" id="4to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
    </interval>
@@ -415,390 +414,13 @@
    </interval>
    <interval begin="90.00" end="95.00" id="2to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
    </interval>
-   <interval begin="90.00" end="95.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="9.20" speed="10.87" length="5.00" nVehEntered="1">
-      <typedInterval type="CarA" begin="90.00" end="95.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="9.20" speed="10.87" length="5.00" nVehEntered="1"/>
+   <interval begin="90.00" end="95.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="9.73" speed="10.28" length="5.00" nVehEntered="1">
+      <typedInterval type="CarA" begin="90.00" end="95.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="9.73" speed="10.28" length="5.00" nVehEntered="1"/>
    </interval>
    <interval begin="90.00" end="95.00" id="3to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
    </interval>
    <interval begin="90.00" end="95.00" id="4to0_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
    </interval>
    <interval begin="90.00" end="95.00" id="4to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="95.00" end="100.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0">
-      <typedInterval type="CarB" begin="95.00" end="100.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
-   </interval>
-   <interval begin="95.00" end="100.00" id="1to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="95.00" end="100.00" id="2to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0">
-      <typedInterval type="CarD" begin="95.00" end="100.00" id="2to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
-   </interval>
-   <interval begin="95.00" end="100.00" id="2to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="95.00" end="100.00" id="3to0_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="95.00" end="100.00" id="3to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="95.00" end="100.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="40.23" speed="3.73" length="7.50" nVehEntered="1">
-      <typedInterval type="CarD" begin="95.00" end="100.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="40.23" speed="3.73" length="7.50" nVehEntered="1"/>
-   </interval>
-   <interval begin="95.00" end="100.00" id="4to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="1">
-   </interval>
-   <interval begin="100.00" end="105.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0">
-      <typedInterval type="CarB" begin="100.00" end="105.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
-   </interval>
-   <interval begin="100.00" end="105.00" id="1to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="100.00" end="105.00" id="2to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0">
-      <typedInterval type="CarD" begin="100.00" end="105.00" id="2to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
-   </interval>
-   <interval begin="100.00" end="105.00" id="2to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="100.00" end="105.00" id="3to0_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="100.00" end="105.00" id="3to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="100.00" end="105.00" id="4to0_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="100.00" end="105.00" id="4to0_1" nVehContrib="1" flow="720.00" occupancy="27.21" speed="5.51" length="7.50" nVehEntered="1">
-      <typedInterval type="CarD" begin="100.00" end="105.00" id="4to0_1" nVehContrib="1" flow="720.00" occupancy="27.21" speed="5.51" length="7.50" nVehEntered="1"/>
-   </interval>
-   <interval begin="105.00" end="110.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0">
-      <typedInterval type="CarB" begin="105.00" end="110.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
-   </interval>
-   <interval begin="105.00" end="110.00" id="1to0_1" nVehContrib="0" flow="0.00" occupancy="15.32" speed="-1.00" length="-1.00" nVehEntered="0">
-      <typedInterval type="CarA" begin="105.00" end="110.00" id="1to0_1" nVehContrib="0" flow="0.00" occupancy="15.32" speed="-1.00" length="-1.00" nVehEntered="0"/>
-   </interval>
-   <interval begin="105.00" end="110.00" id="2to0_0" nVehContrib="1" flow="720.00" occupancy="31.14" speed="0.08" length="7.50" nVehEntered="1">
-      <typedInterval type="CarD" begin="105.00" end="110.00" id="2to0_0" nVehContrib="1" flow="720.00" occupancy="31.14" speed="0.08" length="7.50" nVehEntered="1"/>
-   </interval>
-   <interval begin="105.00" end="110.00" id="2to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="105.00" end="110.00" id="3to0_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="105.00" end="110.00" id="3to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="105.00" end="110.00" id="4to0_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="105.00" end="110.00" id="4to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="110.00" end="115.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0">
-      <typedInterval type="CarB" begin="110.00" end="115.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
-   </interval>
-   <interval begin="110.00" end="115.00" id="1to0_1" nVehContrib="1" flow="720.00" occupancy="59.12" speed="3.58" length="5.00" nVehEntered="1">
-      <typedInterval type="CarA" begin="110.00" end="115.00" id="1to0_1" nVehContrib="1" flow="720.00" occupancy="59.12" speed="3.58" length="5.00" nVehEntered="1"/>
-   </interval>
-   <interval begin="110.00" end="115.00" id="2to0_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="110.00" end="115.00" id="2to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="110.00" end="115.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="9.54" speed="10.49" length="5.00" nVehEntered="1">
-      <typedInterval type="CarA" begin="110.00" end="115.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="9.54" speed="10.49" length="5.00" nVehEntered="1"/>
-   </interval>
-   <interval begin="110.00" end="115.00" id="3to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="110.00" end="115.00" id="4to0_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="110.00" end="115.00" id="4to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="115.00" end="120.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0">
-      <typedInterval type="CarB" begin="115.00" end="120.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
-   </interval>
-   <interval begin="115.00" end="120.00" id="1to0_1" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0">
-      <typedInterval type="CarA" begin="115.00" end="120.00" id="1to0_1" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
-   </interval>
-   <interval begin="115.00" end="120.00" id="2to0_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="115.00" end="120.00" id="2to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="115.00" end="120.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="9.69" speed="10.32" length="5.00" nVehEntered="1">
-      <typedInterval type="CarA" begin="115.00" end="120.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="9.69" speed="10.32" length="5.00" nVehEntered="1"/>
-   </interval>
-   <interval begin="115.00" end="120.00" id="3to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="115.00" end="120.00" id="4to0_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="115.00" end="120.00" id="4to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="120.00" end="125.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0">
-      <typedInterval type="CarB" begin="120.00" end="125.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
-   </interval>
-   <interval begin="120.00" end="125.00" id="1to0_1" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0">
-      <typedInterval type="CarA" begin="120.00" end="125.00" id="1to0_1" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
-   </interval>
-   <interval begin="120.00" end="125.00" id="2to0_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="120.00" end="125.00" id="2to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="120.00" end="125.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="9.03" speed="11.07" length="5.00" nVehEntered="1">
-      <typedInterval type="CarA" begin="120.00" end="125.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="9.03" speed="11.07" length="5.00" nVehEntered="1"/>
-   </interval>
-   <interval begin="120.00" end="125.00" id="3to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="120.00" end="125.00" id="4to0_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="120.00" end="125.00" id="4to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="125.00" end="130.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0">
-      <typedInterval type="CarB" begin="125.00" end="130.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
-   </interval>
-   <interval begin="125.00" end="130.00" id="1to0_1" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0">
-      <typedInterval type="CarA" begin="125.00" end="130.00" id="1to0_1" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
-   </interval>
-   <interval begin="125.00" end="130.00" id="2to0_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="125.00" end="130.00" id="2to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="125.00" end="130.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="9.27" speed="10.79" length="5.00" nVehEntered="1">
-      <typedInterval type="CarA" begin="125.00" end="130.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="9.27" speed="10.79" length="5.00" nVehEntered="1"/>
-   </interval>
-   <interval begin="125.00" end="130.00" id="3to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="125.00" end="130.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="17.72" speed="5.64" length="5.00" nVehEntered="1">
-      <typedInterval type="CarC" begin="125.00" end="130.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="17.72" speed="5.64" length="5.00" nVehEntered="1"/>
-   </interval>
-   <interval begin="125.00" end="130.00" id="4to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="130.00" end="135.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0">
-      <typedInterval type="CarB" begin="130.00" end="135.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
-   </interval>
-   <interval begin="130.00" end="135.00" id="1to0_1" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0">
-      <typedInterval type="CarA" begin="130.00" end="135.00" id="1to0_1" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
-   </interval>
-   <interval begin="130.00" end="135.00" id="2to0_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="130.00" end="135.00" id="2to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="130.00" end="135.00" id="3to0_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="130.00" end="135.00" id="3to0_1" nVehContrib="1" flow="720.00" occupancy="17.82" speed="8.42" length="7.50" nVehEntered="1">
-      <typedInterval type="CarB" begin="130.00" end="135.00" id="3to0_1" nVehContrib="1" flow="720.00" occupancy="17.82" speed="8.42" length="7.50" nVehEntered="1"/>
-   </interval>
-   <interval begin="130.00" end="135.00" id="4to0_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="130.00" end="135.00" id="4to0_1" nVehContrib="1" flow="720.00" occupancy="31.33" speed="4.79" length="7.50" nVehEntered="1">
-      <typedInterval type="CarD" begin="130.00" end="135.00" id="4to0_1" nVehContrib="1" flow="720.00" occupancy="31.33" speed="4.79" length="7.50" nVehEntered="1"/>
-   </interval>
-   <interval begin="135.00" end="140.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0">
-      <typedInterval type="CarB" begin="135.00" end="140.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
-   </interval>
-   <interval begin="135.00" end="140.00" id="1to0_1" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0">
-      <typedInterval type="CarA" begin="135.00" end="140.00" id="1to0_1" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
-   </interval>
-   <interval begin="135.00" end="140.00" id="2to0_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="135.00" end="140.00" id="2to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="135.00" end="140.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="18.13" speed="8.27" length="7.50" nVehEntered="1">
-      <typedInterval type="CarB" begin="135.00" end="140.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="18.13" speed="8.27" length="7.50" nVehEntered="1"/>
-   </interval>
-   <interval begin="135.00" end="140.00" id="3to0_1" nVehContrib="0" flow="0.00" occupancy="1.14" speed="-1.00" length="-1.00" nVehEntered="0">
-      <typedInterval type="CarB" begin="135.00" end="140.00" id="3to0_1" nVehContrib="0" flow="0.00" occupancy="1.14" speed="-1.00" length="-1.00" nVehEntered="0"/>
-   </interval>
-   <interval begin="135.00" end="140.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="28.26" speed="5.31" length="7.50" nVehEntered="1">
-      <typedInterval type="CarD" begin="135.00" end="140.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="28.26" speed="5.31" length="7.50" nVehEntered="1"/>
-   </interval>
-   <interval begin="135.00" end="140.00" id="4to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="140.00" end="145.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0">
-      <typedInterval type="CarB" begin="140.00" end="145.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
-   </interval>
-   <interval begin="140.00" end="145.00" id="1to0_1" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0">
-      <typedInterval type="CarA" begin="140.00" end="145.00" id="1to0_1" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
-   </interval>
-   <interval begin="140.00" end="145.00" id="2to0_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="140.00" end="145.00" id="2to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="140.00" end="145.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="19.69" speed="7.62" length="7.50" nVehEntered="1">
-      <typedInterval type="CarB" begin="140.00" end="145.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="19.69" speed="7.62" length="7.50" nVehEntered="1"/>
-   </interval>
-   <interval begin="140.00" end="145.00" id="3to0_1" nVehContrib="1" flow="720.00" occupancy="15.97" speed="8.77" length="7.50" nVehEntered="1">
-      <typedInterval type="CarB" begin="140.00" end="145.00" id="3to0_1" nVehContrib="1" flow="720.00" occupancy="15.97" speed="8.77" length="7.50" nVehEntered="1"/>
-   </interval>
-   <interval begin="140.00" end="145.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="17.05" speed="5.87" length="5.00" nVehEntered="1">
-      <typedInterval type="CarC" begin="140.00" end="145.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="17.05" speed="5.87" length="5.00" nVehEntered="1"/>
-   </interval>
-   <interval begin="140.00" end="145.00" id="4to0_1" nVehContrib="1" flow="720.00" occupancy="31.73" speed="4.73" length="7.50" nVehEntered="1">
-      <typedInterval type="CarD" begin="140.00" end="145.00" id="4to0_1" nVehContrib="1" flow="720.00" occupancy="31.73" speed="4.73" length="7.50" nVehEntered="1"/>
-   </interval>
-   <interval begin="145.00" end="150.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0">
-      <typedInterval type="CarB" begin="145.00" end="150.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
-   </interval>
-   <interval begin="145.00" end="150.00" id="1to0_1" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0">
-      <typedInterval type="CarA" begin="145.00" end="150.00" id="1to0_1" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
-   </interval>
-   <interval begin="145.00" end="150.00" id="2to0_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="145.00" end="150.00" id="2to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="145.00" end="150.00" id="3to0_0" nVehContrib="2" flow="1440.00" occupancy="27.69" speed="9.56" length="6.25" nVehEntered="2">
-      <typedInterval type="CarA" begin="145.00" end="150.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="9.01" speed="11.10" length="5.00" nVehEntered="1"/>
-      <typedInterval type="CarB" begin="145.00" end="150.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="18.68" speed="8.03" length="7.50" nVehEntered="1"/>
-   </interval>
-   <interval begin="145.00" end="150.00" id="3to0_1" nVehContrib="1" flow="720.00" occupancy="19.12" speed="7.84" length="7.50" nVehEntered="1">
-      <typedInterval type="CarB" begin="145.00" end="150.00" id="3to0_1" nVehContrib="1" flow="720.00" occupancy="19.12" speed="7.84" length="7.50" nVehEntered="1"/>
-   </interval>
-   <interval begin="145.00" end="150.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="18.12" speed="5.52" length="5.00" nVehEntered="1">
-      <typedInterval type="CarC" begin="145.00" end="150.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="18.12" speed="5.52" length="5.00" nVehEntered="1"/>
-   </interval>
-   <interval begin="145.00" end="150.00" id="4to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="150.00" end="155.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0">
-      <typedInterval type="CarB" begin="150.00" end="155.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
-   </interval>
-   <interval begin="150.00" end="155.00" id="1to0_1" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0">
-      <typedInterval type="CarA" begin="150.00" end="155.00" id="1to0_1" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
-   </interval>
-   <interval begin="150.00" end="155.00" id="2to0_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="150.00" end="155.00" id="2to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="150.00" end="155.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="19.16" speed="7.83" length="7.50" nVehEntered="1">
-      <typedInterval type="CarB" begin="150.00" end="155.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="19.16" speed="7.83" length="7.50" nVehEntered="1"/>
-   </interval>
-   <interval begin="150.00" end="155.00" id="3to0_1" nVehContrib="1" flow="720.00" occupancy="19.27" speed="7.79" length="7.50" nVehEntered="1">
-      <typedInterval type="CarB" begin="150.00" end="155.00" id="3to0_1" nVehContrib="1" flow="720.00" occupancy="19.27" speed="7.79" length="7.50" nVehEntered="1"/>
-   </interval>
-   <interval begin="150.00" end="155.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="16.43" speed="6.09" length="5.00" nVehEntered="1">
-      <typedInterval type="CarC" begin="150.00" end="155.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="16.43" speed="6.09" length="5.00" nVehEntered="1"/>
-   </interval>
-   <interval begin="150.00" end="155.00" id="4to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="155.00" end="160.00" id="1to0_0" nVehContrib="2" flow="1440.00" occupancy="34.84" speed="2.26" length="6.25" nVehEntered="2">
-      <typedInterval type="CarA" begin="155.00" end="160.00" id="1to0_0" nVehContrib="1" flow="720.00" occupancy="22.52" speed="4.44" length="5.00" nVehEntered="1"/>
-      <typedInterval type="CarB" begin="155.00" end="160.00" id="1to0_0" nVehContrib="1" flow="720.00" occupancy="12.32" speed="0.08" length="7.50" nVehEntered="1"/>
-   </interval>
-   <interval begin="155.00" end="160.00" id="1to0_1" nVehContrib="1" flow="720.00" occupancy="47.13" speed="0.11" length="5.00" nVehEntered="1">
-      <typedInterval type="CarA" begin="155.00" end="160.00" id="1to0_1" nVehContrib="1" flow="720.00" occupancy="47.13" speed="0.11" length="5.00" nVehEntered="1"/>
-   </interval>
-   <interval begin="155.00" end="160.00" id="2to0_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="155.00" end="160.00" id="2to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="155.00" end="160.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="22.65" speed="4.42" length="5.00" nVehEntered="1">
-      <typedInterval type="CarA" begin="155.00" end="160.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="22.65" speed="4.42" length="5.00" nVehEntered="1"/>
-   </interval>
-   <interval begin="155.00" end="160.00" id="3to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="155.00" end="160.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="28.16" speed="3.55" length="5.00" nVehEntered="1">
-      <typedInterval type="CarC" begin="155.00" end="160.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="28.16" speed="3.55" length="5.00" nVehEntered="1"/>
-   </interval>
-   <interval begin="155.00" end="160.00" id="4to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="160.00" end="165.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="160.00" end="165.00" id="1to0_1" nVehContrib="0" flow="0.00" occupancy="89.96" speed="-1.00" length="-1.00" nVehEntered="0">
-      <typedInterval type="CarA" begin="160.00" end="165.00" id="1to0_1" nVehContrib="0" flow="0.00" occupancy="89.96" speed="-1.00" length="-1.00" nVehEntered="0"/>
-   </interval>
-   <interval begin="160.00" end="165.00" id="2to0_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="160.00" end="165.00" id="2to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="160.00" end="165.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="26.81" speed="3.73" length="5.00" nVehEntered="1">
-      <typedInterval type="CarA" begin="160.00" end="165.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="26.81" speed="3.73" length="5.00" nVehEntered="1"/>
-   </interval>
-   <interval begin="160.00" end="165.00" id="3to0_1" nVehContrib="0" flow="0.00" occupancy="10.01" speed="-1.00" length="-1.00" nVehEntered="0">
-      <typedInterval type="CarB" begin="160.00" end="165.00" id="3to0_1" nVehContrib="0" flow="0.00" occupancy="10.01" speed="-1.00" length="-1.00" nVehEntered="0"/>
-   </interval>
-   <interval begin="160.00" end="165.00" id="4to0_0" nVehContrib="0" flow="0.00" occupancy="65.89" speed="-1.00" length="-1.00" nVehEntered="0">
-      <typedInterval type="CarD" begin="160.00" end="165.00" id="4to0_0" nVehContrib="0" flow="0.00" occupancy="65.89" speed="-1.00" length="-1.00" nVehEntered="0"/>
-   </interval>
-   <interval begin="160.00" end="165.00" id="4to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="165.00" end="170.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="165.00" end="170.00" id="1to0_1" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0">
-      <typedInterval type="CarA" begin="165.00" end="170.00" id="1to0_1" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
-   </interval>
-   <interval begin="165.00" end="170.00" id="2to0_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="165.00" end="170.00" id="2to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="165.00" end="170.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="8.77" speed="11.40" length="5.00" nVehEntered="1">
-      <typedInterval type="CarA" begin="165.00" end="170.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="8.77" speed="11.40" length="5.00" nVehEntered="1"/>
-   </interval>
-   <interval begin="165.00" end="170.00" id="3to0_1" nVehContrib="1" flow="720.00" occupancy="9.30" speed="7.77" length="7.50" nVehEntered="1">
-      <typedInterval type="CarB" begin="165.00" end="170.00" id="3to0_1" nVehContrib="1" flow="720.00" occupancy="9.30" speed="7.77" length="7.50" nVehEntered="1"/>
-   </interval>
-   <interval begin="165.00" end="170.00" id="4to0_0" nVehContrib="2" flow="1440.00" occupancy="45.31" speed="2.24" length="6.25" nVehEntered="2">
-      <typedInterval type="CarC" begin="165.00" end="170.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="45.25" speed="2.21" length="5.00" nVehEntered="1"/>
-      <typedInterval type="CarD" begin="165.00" end="170.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="0.06" speed="2.27" length="7.50" nVehEntered="1"/>
-   </interval>
-   <interval begin="165.00" end="170.00" id="4to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="1">
-   </interval>
-   <interval begin="170.00" end="175.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="170.00" end="175.00" id="1to0_1" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0">
-      <typedInterval type="CarA" begin="170.00" end="175.00" id="1to0_1" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
-   </interval>
-   <interval begin="170.00" end="175.00" id="2to0_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="170.00" end="175.00" id="2to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="170.00" end="175.00" id="3to0_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="170.00" end="175.00" id="3to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="170.00" end="175.00" id="4to0_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="170.00" end="175.00" id="4to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="175.00" end="180.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="175.00" end="180.00" id="1to0_1" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0">
-      <typedInterval type="CarA" begin="175.00" end="180.00" id="1to0_1" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
-   </interval>
-   <interval begin="175.00" end="180.00" id="2to0_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="175.00" end="180.00" id="2to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="175.00" end="180.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="19.07" speed="7.86" length="7.50" nVehEntered="1">
-      <typedInterval type="CarB" begin="175.00" end="180.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="19.07" speed="7.86" length="7.50" nVehEntered="1"/>
-   </interval>
-   <interval begin="175.00" end="180.00" id="3to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="175.00" end="180.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="17.87" speed="5.60" length="5.00" nVehEntered="1">
-      <typedInterval type="CarC" begin="175.00" end="180.00" id="4to0_0" nVehContrib="1" flow="720.00" occupancy="17.87" speed="5.60" length="5.00" nVehEntered="1"/>
-   </interval>
-   <interval begin="175.00" end="180.00" id="4to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="180.00" end="185.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="180.00" end="185.00" id="1to0_1" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0">
-      <typedInterval type="CarA" begin="180.00" end="185.00" id="1to0_1" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
-   </interval>
-   <interval begin="180.00" end="185.00" id="2to0_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="180.00" end="185.00" id="2to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="180.00" end="185.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="17.39" speed="8.62" length="7.50" nVehEntered="1">
-      <typedInterval type="CarB" begin="180.00" end="185.00" id="3to0_0" nVehContrib="1" flow="720.00" occupancy="17.39" speed="8.62" length="7.50" nVehEntered="1"/>
-   </interval>
-   <interval begin="180.00" end="185.00" id="3to0_1" nVehContrib="0" flow="0.00" occupancy="18.60" speed="-1.00" length="-1.00" nVehEntered="0">
-      <typedInterval type="CarB" begin="180.00" end="185.00" id="3to0_1" nVehContrib="0" flow="0.00" occupancy="18.60" speed="-1.00" length="-1.00" nVehEntered="0"/>
-   </interval>
-   <interval begin="180.00" end="185.00" id="4to0_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="180.00" end="185.00" id="4to0_1" nVehContrib="1" flow="720.00" occupancy="28.73" speed="5.22" length="7.50" nVehEntered="1">
-      <typedInterval type="CarD" begin="180.00" end="185.00" id="4to0_1" nVehContrib="1" flow="720.00" occupancy="28.73" speed="5.22" length="7.50" nVehEntered="1"/>
-   </interval>
-   <interval begin="185.00" end="186.00" id="1to0_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="185.00" end="186.00" id="1to0_1" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0">
-      <typedInterval type="CarA" begin="185.00" end="186.00" id="1to0_1" nVehContrib="0" flow="0.00" occupancy="100.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
-   </interval>
-   <interval begin="185.00" end="186.00" id="2to0_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="185.00" end="186.00" id="2to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="185.00" end="186.00" id="3to0_0" nVehContrib="1" flow="3600.00" occupancy="44.96" speed="11.12" length="5.00" nVehEntered="1">
-      <typedInterval type="CarA" begin="185.00" end="186.00" id="3to0_0" nVehContrib="1" flow="3600.00" occupancy="44.96" speed="11.12" length="5.00" nVehEntered="1"/>
-   </interval>
-   <interval begin="185.00" end="186.00" id="3to0_1" nVehContrib="1" flow="3600.00" occupancy="0.78" speed="8.00" length="7.50" nVehEntered="1">
-      <typedInterval type="CarB" begin="185.00" end="186.00" id="3to0_1" nVehContrib="1" flow="3600.00" occupancy="0.78" speed="8.00" length="7.50" nVehEntered="1"/>
-   </interval>
-   <interval begin="185.00" end="186.00" id="4to0_0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
-   </interval>
-   <interval begin="185.00" end="186.00" id="4to0_1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0">
    </interval>
 </detector>

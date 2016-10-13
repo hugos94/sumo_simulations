@@ -105,6 +105,8 @@ def run():
     """Execute the TraCI control loop"""
     traci.init(PORT)
     step = 0
+    print("Sinal 0: ")
+    print(traci.trafficlights.getRedYellowGreenState("0"))
     traci.trafficlights.setPhase("0", 2)
     while traci.simulation.getMinExpectedNumber () > 0:
         traci.simulationStep()
