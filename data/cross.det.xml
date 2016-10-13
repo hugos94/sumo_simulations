@@ -1,1 +1,14 @@
-<e1Detector id="0" lane="1to0_0" pos="25" freq="15" file="cross.out" friendlyPos="x"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<additional>
+  <inductionLoop id="0" lane="1to0_0" pos="25" freq="15" file="cross.out" friendlyPos="x"/>
+  <inductionLoop id="1" lane="1to0_1" pos="25" freq="15" file="cross.out" friendlyPos="x"/>
+
+  <inductionLoop id="2" lane="2to0_0" pos="25" freq="15" file="cross.out" friendlyPos="x"/>
+  <inductionLoop id="3" lane="2to0_1" pos="25" freq="15" file="cross.out" friendlyPos="x"/>
+
+  <inductionLoop id="4" lane="3to0_0" pos="25" freq="15" file="cross.out" friendlyPos="x"/>
+  <inductionLoop id="5" lane="3to0_1" pos="25" freq="15" file="cross.out" friendlyPos="x"/>
+
+  <inductionLoop id="6" lane="4to0_0" pos="25" freq="15" file="cross.out" friendlyPos="x"/>
+  <inductionLoop id="7" lane="4to0_1" pos="25" freq="15" file="cross.out" friendlyPos="x"/>
+</additional>
