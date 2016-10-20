@@ -37,6 +37,10 @@ Para simular a rede execute a seguinte linha de comando no console:
 
 sumo-gui -c cross.sumocfg
 
-
-
 PARA EXECUTAR DIRETO: netconvert -c cross.netc.cfg;sumo-gui -c cross.sumocfg
+
+# TraCI
+
+export SUMO_HOME=/usr/share/sumo
+
+python runner.py
