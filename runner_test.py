@@ -108,13 +108,13 @@ def run():
     traci.trafficlights.setPhase("0", 2)
     while traci.simulation.getMinExpectedNumber () > 0:
         traci.simulationStep()
-        if traci.trafficlights.getPhase("0") == 2:
-            if traci.inductionloop.getLastStepVehicleNumber("1to0_0") > 0:
+        #if traci.trafficlights.getPhase("0") == 2:
+            #if traci.inductionloop.getLastStepVehicleNumber("1to0_0") > 0:
                 # there is a vehicle from the north, switch
-                traci.trafficlights.setPhase("0", 3)
-            else:
+        #        traci.trafficlights.setPhase("0", 3)
+           # else:
                 # otherwise try to keep green for EW
-                traci.trafficlights.setPhase("0", 2)
+            #    traci.trafficlights.setPhase("0", 2)
         step += 1
     traci.close()
     sys.stdout.flush()
