@@ -61,10 +61,12 @@ def run():
     print("Inicio da Simulacao Controlada:")
     traci.init(PORT)
     step = 0
-    traci.trafficlights.setPhase("0", 0)
-    while traci.simulation.getMinExpectedNumber () > 0:
-        print("Step: " + str(step) + "MinExpected: " + str(traci.simulation.getMinExpectedNumber()))
+    #No estado inicial, todos os semaforos estao abertos e o comando abaixo fecha metade dos sinais
+    traci.trafficlights.setRedYellowGreenState("0", "GGGGrrrrGGGGrrrr");
+
+    while traci.simulation.getMinExpectedNumber () > 0: #verifica se existem carros na rede
         traci.simulationStep()
+        print("Step:" + str(step) + " Inductionloop: " + str(traci.inductionloop.getLastStepVehicleNumber("1to0_0")))
         #if traci.trafficlights.getPhase("0") == 2:
             #if traci.inductionloop.getLastStepVehicleNumber("1to0_0") > 0:
                 # there is a vehicle from the north, switch

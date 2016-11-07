@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on Mon Oct 10 14:07:33 2016 by SUMO netconvert Version 0.26.0
+<!-- generated on Mon Nov  7 16:46:44 2016 by SUMO netconvert Version 0.26.0
 <?xml version="1.0" encoding="UTF-8"?>
 
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
-        <node-files value="cross.nod.xml"/>
-        <edge-files value="cross.edg.xml"/>
-        <connection-files value="cross.con.xml"/>
-        <type-files value="cross.typ.xml"/>
+        <node-files value="data/cross.nod.xml"/>
+        <edge-files value="data/cross.edg.xml"/>
+        <connection-files value="data/cross.con.xml"/>
+        <type-files value="data/cross.typ.xml"/>
     </input>
 
     <output>
-        <output-file value="cross.net.xml"/>
+        <output-file value="data/cross.net.xml"/>
     </output>
 
     <processing>
@@ -94,30 +94,13 @@
     </edge>
 
     <tlLogic id="0" type="static" programID="0" offset="0">
-        <phase duration="41" state="GGGGrrrrGGGGrrrr"/>
-        <phase duration="4" state="yyyyrrrryyyyrrrr"/>
-        <phase duration="41" state="rrrrGGGGrrrrGGGG"/>
-        <phase duration="4" state="rrrryyyyrrrryyyy"/>
+        <phase duration="41" state="GGGGGGGGGGGGGGGG"/>
+        <phase duration="4" state="yyyyyyyyyyyyyyyy"/>
+        <phase duration="41" state="GGGGGGGGGGGGGGGG"/>
+        <phase duration="4" state="yyyyyyyyyyyyyyyy"/>
     </tlLogic>
 
-    <junction id="0" type="traffic_light" x="50.00" y="50.00" incLanes="4to0_0 4to0_1 2to0_0 2to0_1 3to0_0 3to0_1 1to0_0 1to0_1" intLanes=":0_0_0 :0_0_1 :0_2_0 :0_2_1 :0_4_0 :0_4_1 :0_6_0 :0_6_1 :0_8_0 :0_8_1 :0_10_0 :0_10_1 :0_12_0 :0_12_1 :0_14_0 :0_14_1" shape="43.45,58.05 56.55,58.05 58.05,56.55 58.05,43.45 56.55,41.95 43.45,41.95 41.95,43.45 41.95,56.55">
-        <request index="0" response="0000000000000000" foes="0000000011000000" cont="0"/>
-        <request index="1" response="0000000000000000" foes="0000000011000000" cont="0"/>
-        <request index="2" response="0000000000000000" foes="1111000011000000" cont="0"/>
-        <request index="3" response="0000000000000000" foes="1111000011000000" cont="0"/>
-        <request index="4" response="0000110000000000" foes="0000110000000000" cont="0"/>
-        <request index="5" response="0000110000000000" foes="0000110000000000" cont="0"/>
-        <request index="6" response="0000110000001111" foes="0000110000001111" cont="0"/>
-        <request index="7" response="0000110000001111" foes="0000110000001111" cont="0"/>
-        <request index="8" response="0000000000000000" foes="1100000000000000" cont="0"/>
-        <request index="9" response="0000000000000000" foes="1100000000000000" cont="0"/>
-        <request index="10" response="0000000000000000" foes="1100000011110000" cont="0"/>
-        <request index="11" response="0000000000000000" foes="1100000011110000" cont="0"/>
-        <request index="12" response="0000000000001100" foes="0000000000001100" cont="0"/>
-        <request index="13" response="0000000000001100" foes="0000000000001100" cont="0"/>
-        <request index="14" response="0000111100001100" foes="0000111100001100" cont="0"/>
-        <request index="15" response="0000111100001100" foes="0000111100001100" cont="0"/>
-    </junction>
+    <junction id="0" type="traffic_light_unregulated" x="50.00" y="50.00" incLanes="4to0_0 4to0_1 2to0_0 2to0_1 3to0_0 3to0_1 1to0_0 1to0_1" intLanes=":0_0_0 :0_0_1 :0_2_0 :0_2_1 :0_4_0 :0_4_1 :0_6_0 :0_6_1 :0_8_0 :0_8_1 :0_10_0 :0_10_1 :0_12_0 :0_12_1 :0_14_0 :0_14_1" shape="43.45,58.05 56.55,58.05 58.05,56.55 58.05,43.45 56.55,41.95 43.45,41.95 41.95,43.45 41.95,56.55"/>
     <junction id="1" type="dead_end" x="0.00" y="50.00" incLanes="0to1_0 0to1_1" intLanes="" shape="0.00,49.95 0.00,43.45 0.00,56.55 0.00,50.05"/>
     <junction id="2" type="dead_end" x="100.00" y="50.00" incLanes="0to2_0 0to2_1" intLanes="" shape="100.00,50.05 100.00,56.55 100.00,43.45 100.00,49.95"/>
     <junction id="3" type="dead_end" x="50.00" y="0.00" incLanes="0to3_0 0to3_1" intLanes="" shape="50.05,0.00 56.55,0.00 43.45,0.00 49.95,0.00"/>
