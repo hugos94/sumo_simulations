@@ -63,10 +63,9 @@ def run():
     step = 0
     #No estado inicial, todos os semaforos estao abertos e o comando abaixo fecha metade dos sinais
     traci.trafficlights.setRedYellowGreenState("0", "GGGGrrrrGGGGrrrr");
-
     while traci.simulation.getMinExpectedNumber () > 0: #verifica se existem carros na rede
         traci.simulationStep()
-        print("Step:" + str(step) + " Inductionloop: " + str(traci.inductionloop.getLastStepVehicleNumber("1to0_0")))
+        print("Step:" + str(step) + " Area: " + str(traci.areal.getLastStepOccupancy("1to0_0")))
         #if traci.trafficlights.getPhase("0") == 2:
             #if traci.inductionloop.getLastStepVehicleNumber("1to0_0") > 0:
                 # there is a vehicle from the north, switch

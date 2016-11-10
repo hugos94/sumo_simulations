@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on Mon Nov  7 16:46:44 2016 by SUMO netconvert Version 0.26.0
+<!-- generated on Wed Nov  9 19:32:27 2016 by SUMO netconvert Version 0.26.0
 <?xml version="1.0" encoding="UTF-8"?>
 
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
-        <node-files value="data/cross.nod.xml"/>
-        <edge-files value="data/cross.edg.xml"/>
-        <connection-files value="data/cross.con.xml"/>
-        <type-files value="data/cross.typ.xml"/>
+        <node-files value="cross.nod.xml"/>
+        <edge-files value="cross.edg.xml"/>
+        <connection-files value="cross.con.xml"/>
+        <type-files value="cross.typ.xml"/>
     </input>
 
     <output>
-        <output-file value="data/cross.net.xml"/>
+        <output-file value="cross.net.xml"/>
     </output>
 
     <processing>
