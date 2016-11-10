@@ -42,7 +42,7 @@ def generate_routefile():
         print("""<?xml version="1.0" encoding="UTF-8"?>
             <routes>
             <!--Tipo de Automoveis | sigma: drivers imperfection in driving (between 0 and 1)-->
-            <vType accel="1.0" decel="5.0" id="CarA" color="1,0,1" length="5.0" minGap="3" maxSpeed="30.0" sigma="1"/>
+            <vType accel="1.0" decel="5.0" id="CarA" color="1,0,0" length="5.0" minGap="3" maxSpeed="30.0" sigma="1"/>
 
             <!--Tipos de Rotas-->
             <route id="r1to2" edges="1to0 0to2"/>
@@ -61,11 +61,33 @@ def run():
     print("Inicio da Simulacao Controlada:")
     traci.init(PORT)
     step = 0
+    stepOpenedSignal = 0;
+    yellow = False
+    changed = False
     #No estado inicial, todos os semaforos estao abertos e o comando abaixo fecha metade dos sinais
     traci.trafficlights.setRedYellowGreenState("0", "GGGGrrrrGGGGrrrr");
+    
     while traci.simulation.getMinExpectedNumber () > 0: #verifica se existem carros na rede
         traci.simulationStep()
-        print("Step:" + str(step) + " Area: " + str(traci.areal.getLastStepOccupancy("1to0_0")))
+        
+        vhQtAc = traci.areal.getLastStepVehicleNumber("1to0_0") + traci.areal.getLastStepVehicleNumber("1to0_1")
+        
+        if (vhQtAc >= 6) and (changed == False):
+            traci.trafficlights.setRedYellowGreenState("0", "yyyyyyyyyyyyyyyy")
+            traci.simulationStep()
+            step += 1
+            traci.trafficlights.setRedYellowGreenState("0", "rrrrGGGGrrrrGGGG")
+            stepOpenedSignal = step
+            changed = True
+
+        if ((step-stepOpenedSignal) >= 16) and (changed == True):
+            traci.trafficlights.setRedYellowGreenState("0", "yyyyyyyyyyyyyyyy")
+            traci.simulationStep()
+            step += 1
+            traci.trafficlights.setRedYellowGreenState("0", "GGGGrrrrGGGGrrrr")
+            changed = False
+
+        #print("Step:" + str(step) + " Area: " + str(traci.areal.getLastStepOccupancy("1to0_0")))
         #if traci.trafficlights.getPhase("0") == 2:
             #if traci.inductionloop.getLastStepVehicleNumber("1to0_0") > 0:
                 # there is a vehicle from the north, switch

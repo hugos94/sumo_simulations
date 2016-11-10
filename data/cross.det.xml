@@ -1,10 +1,9 @@
 <additional>
 	<laneAreaDetector id="1to0_0" lane="1to0_0" pos="20" freq="1" length="20" file="cross.out.xml"/>
+	<laneAreaDetector id="1to0_1" lane="1to0_1" pos="20" freq="1" length="20" file="cross.out.xml"/>
 
-  <inductionLoop id="1to0_1" lane="1to0_1" pos="25" freq="5" file="cross.out.xml" friendlyPos="true" splitByType="true"/>
-
-  <inductionLoop id="2to0_0" lane="2to0_0" pos="25" freq="5" file="cross.out.xml" friendlyPos="true" splitByType="true"/>
-  <inductionLoop id="2to0_1" lane="2to0_1" pos="25" freq="5" file="cross.out.xml" friendlyPos="true" splitByType="true"/>
+  <laneAreaDetector id="2to0_0" lane="2to0_0" pos="20" freq="1" length="20" file="cross.out.xml"/>
+	<laneAreaDetector id="2to0_1" lane="2to0_1" pos="20" freq="1" length="20" file="cross.out.xml"/>
 
   <inductionLoop id="3to0_0" lane="3to0_0" pos="25" freq="5" file="cross.out.xml" friendlyPos="true" splitByType="true"/>
   <inductionLoop id="3to0_1" lane="3to0_1" pos="25" freq="5" file="cross.out.xml" friendlyPos="true" splitByType="true"/>

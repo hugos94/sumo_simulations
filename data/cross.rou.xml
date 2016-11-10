@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
             <routes>
             <!--Tipo de Automoveis | sigma: drivers imperfection in driving (between 0 and 1)-->
-            <vType accel="1.0" decel="5.0" id="CarA" color="1,0,1" length="5.0" minGap="3" maxSpeed="30.0" sigma="1"/>
+            <vType accel="1.0" decel="5.0" id="CarA" color="1,0,0" length="5.0" minGap="3" maxSpeed="30.0" sigma="1"/>
 
             <!--Tipos de Rotas-->
             <route id="r1to2" edges="1to0 0to2"/>
